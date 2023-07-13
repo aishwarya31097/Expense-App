@@ -1,0 +1,7 @@
+# ignoring PUBLIC directory
+/public/uploads/*.jpg
+/public/uploads/*-jpg
+
+data/
+!data/extracting_data.py
+mongodb/

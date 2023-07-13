@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  intain_mongodb_ramco:
+    image: mongo
+    container_name: 'billspls_db'
+    ports:
+      - "27011:27017"
+    volumes:
+      - "./data/mongodb:/data/mongodb"
